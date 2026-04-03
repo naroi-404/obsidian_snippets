@@ -1,7 +1,7 @@
-/*![[]] - zmienia ile wyswietla sie z preview i jak to wygląda*/
+/*![[]] - changes the previwe view*/
 
 .markdown-embed {
-    max-height: 150px; /* ile ma byc widoczne */
+    max-height: 150px; /* how much should be visible  */
     overflow: hidden;   
 }
 
@@ -20,7 +20,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 40px; /* dopasowuwuje ile bluruje */
+    height: 40px; /* how much of the bottom should be blured */
     background: linear-gradient(transparent, var(--background-secondary));
     pointer-events: none; 
 }
